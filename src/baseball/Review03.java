@@ -9,13 +9,12 @@ public class Review03 {
         team1.setWin(80);
         team1.setLose(59);
         team1.setDraw(4);
-        team1.setRate(80/139);
         
         String getName01 = team1.getName();
         int getWin01 = team1.getWin();
         int getLose01 = team1.getLose();
         int getDraw01 = team1.getDraw();
-        double getRate01 = team1.getRate();
+        double getRate01 = team1.getReport();
         System.out.println(getName01 + "の2022年の成績は" + getWin01 + "勝" + getLose01 + "負" + getDraw01 + "分" + "勝率" + getRate01 + "です。");
         
         BaseBallTeam team2 = new BaseBallTeam();
@@ -23,13 +22,12 @@ public class Review03 {
         team2.setWin(73);
         team2.setLose(68);
         team2.setDraw(2);
-        team2.setRate(73/141);
         
         String getName02 = team2.getName();
         int getWin02 = team2.getWin();
         int getLose02 = team2.getLose();
         int getDraw02 = team2.getDraw();
-        double getRate02 = team2.getRate();
+        double getRate02 = team2.getReport();
         System.out.println(getName02 + "の2022年の成績は" + getWin02 + "勝" + getLose02 + "負" + getDraw02 + "分" + "勝率" + getRate02 + "です。");
         
         BaseBallTeam team3 = new BaseBallTeam();
@@ -37,13 +35,12 @@ public class Review03 {
         team3.setWin(68);
         team3.setLose(71);
         team3.setDraw(4);
-        team3.setRate(68/139);
         
         String getName03 = team3.getName();
         int getWin03 = team3.getWin();
         int getLose03 = team3.getLose();
         int getDraw03 = team3.getDraw();
-        double getRate03 = team3.getRate();
+        double getRate03 = team3.getReport();
         System.out.println(getName03 + "の2022年の成績は" + getWin03 + "勝" + getLose03 + "負" + getDraw03 + "分" + "勝率" + getRate03 + "です。");
 
         BaseBallTeam team4 = new BaseBallTeam();
@@ -51,13 +48,12 @@ public class Review03 {
         team4.setWin(68);
         team4.setLose(72);
         team4.setDraw(3);
-        team4.setRate(68/140);
         
         String getName04 = team4.getName();
         int getWin04 = team4.getWin();
         int getLose04 = team4.getLose();
         int getDraw04 = team4.getDraw();
-        double getRate04 = team4.getRate();
+        double getRate04 = team4.getReport();
         System.out.println(getName04 + "の2022年の成績は" + getWin04 + "勝" + getLose04 + "負" + getDraw04 + "分" + "勝率" + getRate04 + "です。");
 
         BaseBallTeam team5 = new BaseBallTeam();
@@ -65,13 +61,12 @@ public class Review03 {
         team5.setWin(66);
         team5.setLose(74);
         team5.setDraw(3);
-        team5.setRate(66/140);
         
         String getName05 = team5.getName();
         int getWin05 = team5.getWin();
         int getLose05 = team5.getLose();
         int getDraw05 = team5.getDraw();
-        double getRate05 = team5.getRate();
+        double getRate05 = team5.getReport();
         System.out.println(getName05 + "の2022年の成績は" + getWin05 + "勝" + getLose05 + "負" + getDraw05 + "分" + "勝率" + getRate05 + "です。");
         
         BaseBallTeam team6 = new BaseBallTeam();
@@ -79,13 +74,12 @@ public class Review03 {
         team6.setWin(66);
         team6.setLose(75);
         team6.setDraw(3);
-        team6.setRate(66/141);
         
         String getName06 = team6.getName();
         int getWin06 = team6.getWin();
         int getLose06 = team6.getLose();
         int getDraw06 = team6.getDraw();
-        double getRate06 = team6.getRate();
+        double getRate06 = team6.getReport();
         System.out.println(getName06 + "の2022年の成績は" + getWin06 + "勝" + getLose06 + "負" + getDraw06 + "分" + "勝率" + getRate06 + "です。");
         }
     }
